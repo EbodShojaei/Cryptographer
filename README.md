@@ -9,3 +9,7 @@ Usage: ./crypto <encrypt|decrypt> <file> <password> [output_file]"
 ```
 
 \*\* Note that the `output_file` is an optional parameter that defaults to `secret_file.enc` as the name of the encrypted output file.
+
+## Acknowledgements
+
+By using this script, the user understands that the developer is not responsible for any loss of data or any other unintended damages to the system.
