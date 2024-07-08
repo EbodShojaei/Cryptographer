@@ -13,7 +13,16 @@ chmod +x ./crypto.sh
 Use the following parameters when running the script.
 
 ```bash
-Usage: ./crypto <encrypt|decrypt> <file> <password> [output_file]"
+Usage: ./crypto.sh <encrypt|decrypt> <file> <password> [output_file]"
+```
+
+### Example
+
+```bash
+❯ ./crypto.sh encrypt input.txt 123456789 output
+File 'input.txt' has been encrypted to 'output.enc'.
+❯ ./crypto.sh decrypt output.enc 123456789
+File 'output.enc' has been decrypted to 'input.txt'.
 ```
 
 \*\* Note that the `output_file` is an optional parameter that defaults to `secret_file.enc` as the name of the encrypted output file.
