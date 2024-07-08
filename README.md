@@ -12,4 +12,4 @@ Usage: ./crypto <encrypt|decrypt> <file> <password> [output_file]"
 
 ## Acknowledgements
 
-By using this script, the user understands that the developer is not responsible for any loss of data or any other unintended damages to the system.
+By using this script, the user understands that the author is not responsible for any loss of data or any other unintended damages to the system.
