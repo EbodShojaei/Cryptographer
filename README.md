@@ -4,6 +4,14 @@ This program is a compiled bash script for encrypting/decrypting text files (.tx
 
 ## Usage
 
+Make sure to use the following code to authorize execution of the script on your machine.
+
+```bash
+chmod +x ./crypto.sh
+```
+
+Use the following parameters when running the script.
+
 ```bash
 Usage: ./crypto <encrypt|decrypt> <file> <password> [output_file]"
 ```
